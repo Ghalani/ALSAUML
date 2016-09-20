@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Module 6 Use Case diagram" version="4">
+  <OBJECT>
+    <ID name="Module 6 Use Case diagram" mc="Standard.UseCaseDiagram" uid="8aaa5528-2c68-4d93-bc78-2c871492f90b"/>
+    <PID name="Module 6" mc="Standard.Package" uid="a24e25a3-c138-4060-88c7-1aae64583672"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">1</ATT>
+      <ATT name="UiData"><![CDATA[eJztU8FO4zAQ/RXL97qlFGiltAgaVCECRWVB4oQm8VAMjl3ZDjR/vzZtdmlRoyAh9rKnOGO/efNm3kTHy1ySVzRWaDWke6xDyfEomqbPmDkiuA9R4soFDqk2c5ZrjlJoxgXMDeQMuXDasMJiBhYZSsxROVsFqmeT/Nbi2AfiVYCSHJ61efjD26Gj6NroBRpXEgW5p5NQ6sLF4MDf3YEscF2HKqSk7VHUrgCfoDeulEg3VHTrVNjw3rJMG2QrbIP6vJwMOPKK7GzpZvjYkOXKp1gjCS5dnJ77Gt+P4eC7R0L7tlS2V3rqlBuU4JD7QraadhlC5DVEhnRzGKQPAAcH3X6rmx32Wz0+2G+l2VH47R/t9Qbdx0EnrW+4BOsulH5TCaQot6hvnBFqTkeXmhcSySHx9CTwk3Vnovb781pdWuK5Gut8oa1wfiQ7OBqkGj8JyQ2GDImwoZvrz05EItSLbf78dB4bePPlJFCi2bThfu0yVdvDV3jLZMjgt2cj4c/sztdQ/8h3gu/wQTxhycn92ezh9GR8MZlNb6/i77FGgx38OKy/tvlggt5/E/ysCX5Nr797+juvfgNuFInx]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Module 6 Use Case diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="420613cf-bea0-4eee-84b5-dd16e5dbbd9e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,53 +1,21 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Register Farmer" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Get labourer details from ABS" version="4">
   <OBJECT>
-    <ID name="Register Farmer" mc="Standard.UseCase" uid="5d7a4c42-003a-4101-b92d-7e34843ce4f2"/>
-    <PID name="subs" mc="Standard.Package" uid="bde77fa6-b7de-4dc9-8475-d575f5c06ae5"/>
+    <ID name="Get labourer details from ABS" mc="Standard.UseCase" uid="0bf85575-5cca-487f-818d-f50ac32220f1"/>
+    <PID name="Use Case" mc="Standard.Package" uid="6abc434d-fcaf-448b-baad-6ca5b4d38e53"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Register Farmer]]></ATT>
+      <ATT name="Name"><![CDATA[Get labourer details from ABS]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="Used">
-        <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="28b54e67-7f6e-44fa-ba2b-ab9daece107e"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Get farmer details with mobile app" mc="Standard.UseCase" uid="2b6c54b7-3c7f-42d3-861b-17e59de29383"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="include" mc="Standard.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="a4f24346-94b9-4d7d-a451-231cf216029c"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Get farmer details from ABS" mc="Standard.UseCase" uid="beed364f-449d-4f9e-9df7-0e7f8ca86e9a"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="include" mc="Standard.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="7f9b9c58-54e8-465c-aa34-3ab34be2cabd"/>
+          <ID name="" mc="Standard.Note" uid="79b84e6a-9125-4d93-9a8c-aab4d617c47d"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -61,7 +29,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="007091ac-0b61-41cb-a9e0-538a11399116"/>
+          <ID name="" mc="Standard.Note" uid="db82a540-1556-4fc9-9b17-29bfc9e9dd13"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -75,7 +43,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="6c39ed87-1a91-44d9-bb5e-d27848fa80b7"/>
+          <ID name="" mc="Standard.Note" uid="15a4441c-9c09-44c0-8722-422b7fab41fd"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -89,7 +57,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="932f8790-cdda-4c00-94b2-734461ab7d58"/>
+          <ID name="" mc="Standard.Note" uid="574452e0-82de-41be-86d6-778544d4f887"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -103,7 +71,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="d6f5f454-6634-4a0b-993a-2a641cfe05f3"/>
+          <ID name="" mc="Standard.Note" uid="502f83d7-e8de-4437-9b77-cd7a4ca306e1"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -117,7 +85,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="e31db4f9-6b3c-4f7b-9e61-1ae1d7cd34da"/>
+          <ID name="" mc="Standard.Note" uid="22164a46-a24d-402a-a16e-40fb7af2aa32"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

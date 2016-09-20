@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Module 6" version="4">
+  <OBJECT>
+    <ID name="Module 6" mc="Standard.Package" uid="a24e25a3-c138-4060-88c7-1aae64583672"/>
+    <PID name="alsa 1" mc="Standard.Package" uid="16495fa4-35e6-4373-aae2-adc80d79cda0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Module 6]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="Module 6 Use Case diagram" mc="Standard.UseCaseDiagram" uid="8aaa5528-2c68-4d93-bc78-2c871492f90b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -16,6 +16,9 @@
       <COMP relation="OwnedElement">
         <COMPID name="Activities" mc="Standard.Package" uid="d3a29f6e-8923-4519-85fd-4431eba2567d"/>
         <COMPID name="subs" mc="Standard.Package" uid="bde77fa6-b7de-4dc9-8475-d575f5c06ae5"/>
+        <COMPID name="Get labourer details from ABS" mc="Standard.UseCase" uid="0bf85575-5cca-487f-818d-f50ac32220f1"/>
+        <COMPID name="Get labourer details with mobile app" mc="Standard.UseCase" uid="97e30555-72a3-403f-acea-e5bfb7c77815"/>
+        <COMPID name="Team manager" mc="Standard.Actor" uid="a8f44e60-8754-4742-aa9a-387fe2879e86"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Use Case diagram" mc="Standard.UseCaseDiagram" uid="0d19be69-9f9b-4fcd-92d8-71fd0d9042a4"/>

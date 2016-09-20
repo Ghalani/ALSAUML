@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="alsa 1" version="4">
+  <OBJECT>
+    <ID name="alsa 1" mc="Standard.Package" uid="16495fa4-35e6-4373-aae2-adc80d79cda0"/>
+    <PID name="ALSA 1" mc="Standard.Project" uid="a089d8d2-c4db-4cf7-ba03-4abbe75ab289"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[alsa 1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="Information Item" mc="Standard.InformationItem" uid="222a9029-9cab-46f1-85c2-121655c7b1d8"/>
+          <ATTRIBUTES>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Information Item]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="Note" mc="Standard.Note" uid="2b5623bc-3ca7-480a-a568-a328dedd79d2"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<p>To manage all the necessary information of farmers and labourers that are under contract by ALSA, including the option to build personal files and work histories.</p><p>Users: Operations&nbsp;&nbsp;</p><p>All farmer, farm and labourer data should be collected with the help of a mobile application or it should be derived from the ABS software from one of the other ALSA-affiliates. In the tables below an overview of what type of information should be managed in the new ALSA software and from what source it should come.</p><p>------------------------------</p><p>We want to keep the option for working with a thumbprint scanner open. Ideally we should be able to reject farmers that have been expelled from the program due to not repaying the loan. Because some farmers have the same name of they give fake names, biometric data can help us to still identify those defaulters.</p>
+]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"><![CDATA[Note]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Module 1" mc="Standard.Package" uid="f0b73619-25c6-4d80-9c2f-abb1eb8afc49"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="911ded87-1716-4a68-9c74-d1025b47124c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

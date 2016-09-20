@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity Activity diagram" version="4">
+  <OBJECT>
+    <ID name="Activity Activity diagram" mc="Standard.ActivityDiagram" uid="367f8ab0-c34b-4548-b5dd-68a78fbedbd2"/>
+    <PID name="Activity" mc="Standard.Activity" uid="d4943b88-b639-4c2f-93ea-a535ba081aab"/>
+    <ATTRIBUTES>
+      <ATT name="IsVertical">false</ATT>
+      <ATT name="UiDataVersion">15</ATT>
+      <ATT name="UiData"><![CDATA[eJztmVtP4zoQgP9KlPeEpM2lqIUVUMRWWy6CPUc6T8iJJ8WLY7OOC+Tfr9OkXQglmDbtHq0q9cFy7Jmx/Y1nPB18eU6p8QgiI5wdmK7tmMaXw8Fl9ANiaRCsukxD5g9wYHIxsVOOgRJuY4ImAqU2YCK5sFEsySORuQ0UUmAyW/TMB56lR1XPsOwxjRT94OJ2odoxDwdXgj+AkLnBUKo0UpTzqRwiidS3fxGdQmUKm1Jq7h0O9uYT3ky9kTkF89VCOk0LyYrxmR1zAXY5V8O+E5TFCAOeKzt9lteQaGq5UCKqmQY8y2E0UjbOmkUDQ4KmVNYWuVcup2nhAiiSgJUdtT07L7qMx6LnwKwdhtENwqSHIseKu15keb7XsyIfYyvoobCXRIAj3GnecIoy+Y3xJzZGEdCa7hspCJuYh3O1xqJR7cxgbza8cWGcwoid8PSBZ0SqI3lHh4aokztCsYBCwphk8hUl3ZVx56yiXJm2DtzXyhTEJgUX1Wm5ftj3nL4bBP3A+TT33sa5L6AvPWxDuF4+oJ9TKPfW6Ib7EXID39oPE1exmkRWlHRCy8fdOHYC6PTcsCVWOfv/gOm3AeaVICkS+YWa3jKjTn9lQANdQJWo53xtSr0dpQ2UniPCCjzWpDVcK2tgasIdqMMTLxKHwqqvs87t5w69rd2hwY7OBjpLKDQEZnf86ZbEbwQdc6UJscWuSDGF5oXOJN1D/sQF/kBYgmj2kTSJ4vvbTIIA3o5pdMn+a4hacPWC8v02Qswxx/n2HdR1thtEdm7a5KaRYmCZuN+7VAaM9zUtSVjs6pxqOkdMwqSICfNkWQN0t/lROyc75mmqyJ55WDmq+qRgH5YPtPOi97TsLbd4HfTra6mnKhp+oP3K3SVTm/eDUYomMNPYYsjSiTJ/Kmbp2rZu0NK+P9q8NFYrDRCmCEFUXRmjstXyw8v3+n6n3y1+n78t/oLaQLWrRYQwnBjHrhOGFsQIWV6MPSvyIbY8J4au2/NQ4u+3cE9UKg3Nd9KWCgTuahWCN3xutkawIqhbrhG4G4trfw+uTZWCpfdnc01gadJVWKTILGrl7WdXbj2J1+BQuxCw43BbHN6o1VJKpI7MXY61To6ln36NCbvPFkHqw+HHk6FAT+o0xyhXDvra5ZqrEvNrA5cCMnVx5LOy4SuJ26lHfG7Wn/qnjtRxnTvS8MweH/13en17fHTy7ez68p+L4SopSRM370p5eVrZsuym01jg2WGwAQy+X161ff7vfvoF6N5ifA==]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Activity Activity diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <REFOBJ>
+          <ID name="Action" mc="Standard.OpaqueAction" uid="379ba165-97f1-45fb-bf27-5d3cc06e2817"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Initial Node" mc="Standard.InitialNode" uid="0cdc1077-ecaa-4cd4-b5ec-40ce3184af59"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="f1806d63-d6fc-4f78-8ca2-76f4cf0b6d49"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

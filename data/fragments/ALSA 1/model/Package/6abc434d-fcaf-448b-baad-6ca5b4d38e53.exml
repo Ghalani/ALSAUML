@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Use Case" version="4">
+  <OBJECT>
+    <ID name="Use Case" mc="Standard.Package" uid="6abc434d-fcaf-448b-baad-6ca5b4d38e53"/>
+    <PID name="Module 1" mc="Standard.Package" uid="f0b73619-25c6-4d80-9c2f-abb1eb8afc49"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Use Case]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Activities" mc="Standard.Package" uid="d3a29f6e-8923-4519-85fd-4431eba2567d"/>
+        <COMPID name="subs" mc="Standard.Package" uid="bde77fa6-b7de-4dc9-8475-d575f5c06ae5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Use Case diagram" mc="Standard.UseCaseDiagram" uid="0d19be69-9f9b-4fcd-92d8-71fd0d9042a4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

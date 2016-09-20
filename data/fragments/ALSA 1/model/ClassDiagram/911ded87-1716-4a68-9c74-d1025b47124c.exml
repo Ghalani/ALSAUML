@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="overview diagram" version="4">
+  <OBJECT>
+    <ID name="overview diagram" mc="Standard.ClassDiagram" uid="911ded87-1716-4a68-9c74-d1025b47124c"/>
+    <PID name="alsa 1" mc="Standard.Package" uid="16495fa4-35e6-4373-aae2-adc80d79cda0"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">241</ATT>
+      <ATT name="UiData"><![CDATA[eJztU11P4zAQ/CuW3+s2vUBBCkXQoAoRKGo5pHtC23jpGRy7st2P/HucJuVoUaOchLiXe0ps78zu7M5G5+tMkiUaK7Q6owHrUHLej0bTF0wdEdxfUeLyOZ5RbWYs0xyl0IwLmBnIGHLhtGHWgROvDCVmqJwtz+k2aJhNNue4PFOSwYs2T+9JO7Qf3Rs9R+NyoiDzuSTkeuFicODfHkEusCpCLaSk7X7U3gI+QScul0h3JHTrJNgi3rJUG2QltkF9A7ApcOTbZFdrN8bnhlnuPEWFJLh28fTa17j5LX44PsNCuj2R7VJOnXCDEhxyX8dez26LK7IsbnzlEqytJkFOg8CLOOm1gl5w3Arh+KR1mvbCFg863aNp2Au6YVrfbc/mbpReqQSmKPcST5wRakb72rdyKXBFqm5E7U1UrRgt8VoNdDbXVjg/hgPUDagGv4XkBguGRNiihdXnICIR6tU2D7+cxQZWvpwEcjS71vtRuz3bfeEl3jJZMPiF2SH8nn35O9Q/MZvgB1wQD1ly8etq/HR5MbgZjkc/7+KvMUaDtfs4qj+m+WCB8L8FvtMCD6P7r579wac3uJmDRw==]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[overview diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

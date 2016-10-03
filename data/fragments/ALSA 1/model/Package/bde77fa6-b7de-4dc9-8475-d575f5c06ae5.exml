@@ -16,9 +16,39 @@
       <COMP relation="OwnedElement">
         <COMPID name="Operations Officer" mc="Standard.Actor" uid="dd8cf9bd-72a5-48e4-b9e2-bef9809464e0"/>
         <COMPID name="Register Farmer" mc="Standard.UseCase" uid="5d7a4c42-003a-4101-b92d-7e34843ce4f2"/>
-        <COMPID name="Get farm details" mc="Standard.UseCase" uid="2b6c54b7-3c7f-42d3-861b-17e59de29383"/>
+        <COMPID name="Get farmer details with mobile app" mc="Standard.UseCase" uid="2b6c54b7-3c7f-42d3-861b-17e59de29383"/>
         <COMPID name="Register Labourer" mc="Standard.UseCase" uid="c458d5b4-56aa-48e0-8c4b-299aa74a1b68"/>
         <COMPID name="Get farmer details from ABS" mc="Standard.UseCase" uid="beed364f-449d-4f9e-9df7-0e7f8ca86e9a"/>
+        <OBJECT>
+          <ID name="Information Item" mc="Standard.InformationItem" uid="222a9029-9cab-46f1-85c2-121655c7b1d8"/>
+          <ATTRIBUTES>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Information Item]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="Note" mc="Standard.Note" uid="2b5623bc-3ca7-480a-a568-a328dedd79d2"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<p>To manage all the necessary information of farmers and labourers that are under contract by ALSA, including the option to build personal files and work histories.</p><p>Users: Operations&nbsp;&nbsp;</p><p>All farmer, farm and labourer data should be collected with the help of a mobile application or it should be derived from the ABS software from one of the other ALSA-affiliates. In the tables below an overview of what type of information should be managed in the new ALSA software and from what source it should come.</p><p>------------------------------</p><p>We want to keep the option for working with a thumbprint scanner open. Ideally we should be able to reject farmers that have been expelled from the program due to not repaying the loan. Because some farmers have the same name of they give fake names, biometric data can help us to still identify those defaulters.</p>
+]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"><![CDATA[Note]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -14,45 +14,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <OBJECT>
-          <ID name="Information Item" mc="Standard.InformationItem" uid="0fbbb684-1dcf-4654-852d-1b1029115937"/>
-          <ATTRIBUTES>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="IsLeaf">false</ATT>
-            <ATT name="IsRoot">false</ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[Information Item]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Descriptor">
-              <OBJECT>
-                <ID name="Note" mc="Standard.Note" uid="688103e1-dc38-4e4d-bfd8-2c08cf79fea3"/>
-                <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[<p>To ensure that quantities of agro-inputs and farm tools are well-managed to prevent loss and calculate depreciation and to be able to plan the logistics of these items.</p><p><em>Users</em>: Operations, Accounts, Audit</p><p>---------------------------------------------------------------------------------------</p><p>Stock management of inputs, tools and equipment, allocation of these items and the following information should be managed: stock input, outgoing stock/items, stock of farming tools</p>
-]]></ATT>
-                  <ATT name="MimeType"></ATT>
-                  <ATT name="Name"><![CDATA[Note]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Model">
-                    <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <COMPID name="Operations" mc="Standard.Actor" uid="65a9e1d9-b86b-425c-9bb9-e4e1f2c8c430"/>
-        <COMPID name="Accounts" mc="Standard.Actor" uid="cfd1cbcd-595e-48bb-a69d-7c0137eaea0c"/>
-        <COMPID name="Audit" mc="Standard.Actor" uid="8c139ca7-2368-47e8-93ed-bbaf7c368bd7"/>
-        <COMPID name="Manage stock input" mc="Standard.UseCase" uid="017a13c5-b871-4d23-bb67-24269c4fd70c"/>
-        <COMPID name="Manage outgoing stock/items" mc="Standard.UseCase" uid="7cbf4e4f-3b08-4358-9085-3d0dd6c72fa4"/>
-        <COMPID name="Manage stock of farming tools" mc="Standard.UseCase" uid="875676b2-4257-4143-beeb-ca54065c6fe3"/>
-      </COMP>
-      <COMP relation="Product">
-        <COMPID name="Module 6 Use Case diagram" mc="Standard.UseCaseDiagram" uid="8aaa5528-2c68-4d93-bc78-2c871492f90b"/>
+        <COMPID name="Use Case" mc="Standard.Package" uid="99a81f3c-571b-4a68-a10b-bc366d233629"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

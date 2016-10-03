@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Manage stock of farming tools" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Create daily report" version="4">
   <OBJECT>
-    <ID name="Manage stock of farming tools" mc="Standard.UseCase" uid="875676b2-4257-4143-beeb-ca54065c6fe3"/>
-    <PID name="Use Case" mc="Standard.Package" uid="99a81f3c-571b-4a68-a10b-bc366d233629"/>
+    <ID name="Create daily report" mc="Standard.UseCase" uid="f2fdaca9-1dca-4d7d-910d-737c66d74c2a"/>
+    <PID name="Use Case" mc="Standard.Package" uid="0f378406-eec8-4830-acb9-3f60e92f0e8a"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Manage stock of farming tools]]></ATT>
+      <ATT name="Name"><![CDATA[Create daily report]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="a0e7fc23-d328-47fd-ab63-3aa9b88ccfdf"/>
+          <ID name="" mc="Standard.Note" uid="25dc9f13-eb7d-4ec2-8517-f3ef30377993"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -29,7 +29,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="5f89143b-15c8-4bbb-bf9b-b766dc5168aa"/>
+          <ID name="" mc="Standard.Note" uid="96d21659-2180-4a92-8feb-74e76b1e893a"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -43,7 +43,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="2a1ecaa0-3dcc-46b6-932f-25c4a830805e"/>
+          <ID name="" mc="Standard.Note" uid="74688608-0f10-4b44-8083-290048fbe271"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -57,7 +57,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="936c695b-ae3d-40af-be7c-77a35674b654"/>
+          <ID name="" mc="Standard.Note" uid="358a87e1-09f0-4dd9-b11b-42e3c859aef6"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -71,7 +71,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="99dc8be0-428f-43d5-a5ea-79b822002713"/>
+          <ID name="" mc="Standard.Note" uid="a4bd886d-4c96-4823-909b-4ad4b5318add"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -85,7 +85,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.Note" uid="eff0bf59-50f6-43d8-ad96-b983ef30dd0e"/>
+          <ID name="" mc="Standard.Note" uid="2edff0e3-813b-40bd-967f-1713c69c5a67"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

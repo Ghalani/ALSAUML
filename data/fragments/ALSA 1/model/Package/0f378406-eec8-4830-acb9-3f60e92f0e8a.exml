@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Use Case" version="4">
+  <OBJECT>
+    <ID name="Use Case" mc="Standard.Package" uid="0f378406-eec8-4830-acb9-3f60e92f0e8a"/>
+    <PID name="Module 2" mc="Standard.Package" uid="e39763fd-919f-45ac-bec8-d93089689699"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Use Case]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="Information Item" mc="Standard.InformationItem" uid="9185607f-c3a0-4acc-a4f6-9fb849939f21"/>
+          <ATTRIBUTES>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Information Item]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="Note" mc="Standard.Note" uid="9e2c03d9-41fe-4375-b231-03141e0eaae8"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<p>Efficiently plan farm activities with the amount of labour available &amp; manage&nbsp;the administration of hours worked on a farm for each activity in order to correctly invoice the farmer and to pay the correct salary to the labourers.</p><p>-----------------------------------------------------------------------------------</p><p><em>Users:&nbsp;</em>Area planner, Finance</p>
+]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"><![CDATA[Note]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Area planner" mc="Standard.Actor" uid="d2116eab-b212-43ac-8867-59db176e32c4"/>
+        <COMPID name="Create farm activities" mc="Standard.UseCase" uid="d155d12a-ab7a-4444-9faf-06beb347b549"/>
+        <COMPID name="Assign farm activities to labourers" mc="Standard.UseCase" uid="a5f8cc03-5dd2-40cb-b6f8-0e672f7df034"/>
+        <COMPID name="Create daily report" mc="Standard.UseCase" uid="f2fdaca9-1dca-4d7d-910d-737c66d74c2a"/>
+        <COMPID name="Plan farm activities" mc="Standard.UseCase" uid="190411df-c754-4057-83f1-845a8ddb20ca"/>
+        <COMPID name="Execute farm activities" mc="Standard.UseCase" uid="bf711709-47cb-4328-91fd-385e070c1d29"/>
+        <COMPID name="Fill labourer assessment report" mc="Standard.UseCase" uid="51f168e6-7361-4015-951f-91d5ea4ed55b"/>
+        <COMPID name="Receive data from filled daily reports" mc="Standard.UseCase" uid="554061e8-0d73-4ca6-b4c1-dc40b69c6ebb"/>
+        <COMPID name="Make farmer invoice calculations" mc="Standard.UseCase" uid="12cc6a87-bde7-4a6f-a483-c70e2e00949b"/>
+        <COMPID name="Make labourer salary calculations" mc="Standard.UseCase" uid="6cbcf261-7ed8-4eb7-859a-564d92aaae9d"/>
+        <COMPID name="Make calculations" mc="Standard.UseCase" uid="0b561d9e-e30f-4061-a905-0ce2f509e2a0"/>
+        <COMPID name="Team manager" mc="Standard.Actor" uid="5864355b-91ce-490e-8994-4c70566b4b33"/>
+        <COMPID name="Finance" mc="Standard.Actor" uid="6d7bfe41-9e0c-4224-bebf-3fb67e071bf9"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Module 2 Use Case diagram" mc="Standard.UseCaseDiagram" uid="abea3d34-75b6-47a3-a004-8fe909c97cc4"/>
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="911ded87-1716-4a68-9c74-d1025b47124c"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="9c29a593-04b7-4379-b2a0-8a95abd9efe3"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
